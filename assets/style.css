@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 2rem;
+}
+
+.header {
+    text-align: center;
+    color: #333;
+}
+
+.form-container {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+label {
+    display: block;
+    margin: 1rem 0 1rem;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 90%;
+    padding: 1rem;
+    margin-bottom: 10px;
+    border: 0.1rem solid #ccc;
+    border-radius: 1rem;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-button{
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.remove-button{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-button:hover{
+    background-color: #218838;
+}
+.remove-button:hover{
+    background-color: rgb(180, 14, 14);
+}
+
+.tables {
+    margin-top: 2rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 0.1rem solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
